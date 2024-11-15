@@ -1,0 +1,64 @@
+/* Estilos para el body */
+body {
+    margin-left: 15%; /* Margen izquierdo */
+    font-family: Verdana; /* Fuente Verdana */
+    width: 70%; /* Ancho del contenido */
+    color: #605B56; /* Color del texto */
+}
+
+/* Estilos para el header */
+header {
+    padding: 3px 10px; /* Espaciado interno */
+    margin-bottom: 5px; /* Margen inferior */
+    background: -webkit-linear-gradient(left, #5CA861, #BADFBC); /* Gradiente para WebKit (Chrome, Safari) */
+    background: -o-linear-gradient(right, #5CA861, #BADFBC); /* Gradiente para versiones antiguas de Opera */
+    background: -moz-linear-gradient(right, #5CA861, #BADFBC); /* Gradiente para Firefox */
+    background: linear-gradient(to right, #5CA861, #BADFBC); /* Gradiente estándar */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilos para el título dentro del header */
+header h1 {
+    padding-left: 10px; /* Espaciado interno a la izquierda */
+}
+
+/* Estilos para el menú principal */
+#menu-principal ul {
+    float: left; /* Hace flotar la lista a la izquierda */
+    width: 200px; /* Ancho del menú */
+    padding: 0; /* Elimina el padding */
+    margin: 0; /* Elimina el margen */
+}
+
+/* Estilos para los ítems del menú */
+#menu-principal ul li {
+    padding: 10px; /* Espaciado dentro de los ítems del menú */
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+/* Estilos para el contenido */
+#contenido {
+    margin-left: 200px; /* Desplaza el contenido para no superponerse con el menú */
+    padding: 10px; /* Espaciado interno */
+    color: black; /* Color del texto */
+    background: url('imagenes/imagen3.jpg') no-repeat center center; /* Fondo de imagen */
+    background-size: cover; /* Asegura que la imagen cubra toda el área */
+    border-radius: 6px; /* Bordes redondeados */
+}
+
+/* Estilos para el footer */
+footer {
+    clear: both; /* Limpia los flotantes */
+    border-top: solid 2px #605B56; /* Borde superior */
+    padding-top: 10px; /* Espaciado superior */
+    margin-top: 15px; /* Margen superior */
+    text-align: center; /* Centra el texto */
+}
+
+/* Estilos para las imágenes dentro del contenido */
+#contenido p img {
+    float: right; /* Hace flotar las imágenes a la derecha */
+    border: 2px solid #605B56; /* Borde sólido en color #605B56 */
+    margin: 3px; /* Margen alrededor de la imagen */
+    border-radius: 4px; /* Bordes redondeados */
+}
